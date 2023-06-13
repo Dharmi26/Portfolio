@@ -7,7 +7,6 @@ import Education from './components/Education';
 import Experience from './components/Experience';
 import Projects from './components/Project';
 import Cocurricular from './components/Cocurricular';
-import Resume from './components/Resume';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
           <Route path='/experience' exact element={<Experience/>} />
           <Route path='/projects' exact element={<Projects/>} />
           <Route path='/cocurriculars' exact element={<Cocurricular/>} />
-          <Route path='/resume' exact element={<Resume/>} />
         </Routes>
     </BrowserRouter>
     </div>
