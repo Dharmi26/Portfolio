@@ -1,0 +1,16 @@
+.btnn{
+    background-color: #3C5186;
+    color: #E6E7EE;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+.btnn:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (max-width: 480px) {
+    .st {
+      font-size: 12px;
+    }
+  }
