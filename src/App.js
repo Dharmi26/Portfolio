@@ -6,7 +6,7 @@ import About from './components/About';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Projects from './components/Project';
-import Cocurricular from './components/Cocurricular';
+import Achievements from './components/Achievements';
 
 function App() {
   return (
@@ -15,11 +15,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' exact element={<About/>} />
-          <Route path='/about' exact element={<About/>} />
-          <Route path='/education' exact element={<Education/>} />
-          <Route path='/experience' exact element={<Experience/>} />
-          <Route path='/projects' exact element={<Projects/>} />
-          <Route path='/cocurriculars' exact element={<Cocurricular/>} />
+          <Route path='/about' element={<About/>} />
+          <Route path='/education' element={<Education/>} />
+          <Route path='/experience' element={<Experience/>} />
+          <Route path='/projects' element={<Projects/>} />
+          <Route path='/achievements' element={<Achievements/>} />
         </Routes>
     </BrowserRouter>
     </div>

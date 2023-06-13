@@ -19,7 +19,7 @@ function Navbars() {
             <Link to="/education" className="navitem" style={{fontSize:"18px", fontWeight:"600", color:"#3C5186", textDecoration:"none"}}>Education</Link>
             <Link to="/experience" className="navitem" style={{fontSize:"18px", fontWeight:"600", color:"#3C5186", textDecoration:"none"}}>Experience</Link>
             <Link to="/projects" className="navitem" style={{fontSize:"18px", fontWeight:"600", color:"#3C5186", textDecoration:"none"}}>Projects</Link>
-            <Link to="/cocurriculars" className="navitem" style={{fontSize:"18px", fontWeight:"600", color:"#3C5186", textDecoration:"none"}}>Achievements</Link>
+            <Link to="/achievements" className="navitem" style={{fontSize:"18px", fontWeight:"600", color:"#3C5186", textDecoration:"none"}}>Achievements</Link>
             <Link onClick={downloadResume} className="navitem" style={{fontSize:"18px", fontWeight:"600", color:"#3C5186", textDecoration:"none"}}>Resume</Link>
           </Nav>
         </Navbar.Collapse>
