@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 function PicCarousel() {
   return (
-    <Carousel variant="dark">
+    <Carousel variant="dark" indicators={false}>
       <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"

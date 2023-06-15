@@ -11,7 +11,7 @@ function Navbars() {
   }; 
   return (
     <Navbar expand="lg" className="color shadow p-3 mb-5">
-      <Navbar.Toggle aria-controls="basic-navbar-nav" className='ms-5' />
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className='ms-2' />
       <Container>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="justify-content-center navbar-collapse gap-5 m-2">
