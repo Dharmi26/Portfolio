@@ -1,3 +1,31 @@
-.bk{
-    background-image: url("../assets/Home.png");
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  .image-container img {
+    transition: filter 0.5s;
+  }
+  .image-container .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  .image-container:hover img {
+    filter: blur(3px);
+  }
+  .image-container:hover .overlay {
+    display: block;
+  }
+  .btnn1{
+    background-color: #3C5186;
+    color: #E6E7EE ;
+    border: none;
+    padding: 8px;
+}
+.btnn1:hover{
+    cursor: pointer;
+    background-color: #4f5259;;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
