@@ -16,7 +16,7 @@ function PicCarousel() {
       <Carousel.Item interval={500}>
         <img
           className="d-block w-100"
-          src={require('../assets/H2.jpg')}
+          src={require('../assets/H2.jpeg')}
           alt="Second slide"
         />
         {/* <Carousel.Caption>
@@ -27,7 +27,20 @@ function PicCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={require('../assets/H4.jpg')}
+          src={require('../assets/H3.jpg')}
+          alt="Third slide"
+        />
+        {/* <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption> */}
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={require('../assets/H4.jpeg')}
           alt="Third slide"
         />
         {/* <Carousel.Caption>
