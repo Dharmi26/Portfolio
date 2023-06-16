@@ -11,6 +11,7 @@ function Navbars() {
   }; 
   return (
     <Navbar expand="lg" className="color shadow p-3 mb-5">
+      <img src={require("../assets/Logo.png")} width="100"/>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className='ms-2' />
       <Container>
         <Navbar.Collapse id="basic-navbar-nav">
