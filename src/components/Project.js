@@ -1,10 +1,20 @@
 import React from 'react';
 import '../styles/project.css';
 import { Link } from 'react-router-dom';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
+
 export default function Project(){
+    useEffect(() => {
+        AOS.init({
+          duration: 700,
+          easing: "ease-out-cubic",
+        });
+      }, []);
     return(
         <>
-            <div className="mt-5 mb-5">
+            <div data-aos="zoom-y-out" data-aos-delay="100" className="mt-5 mb-5">
                 <p className="fw-semibold" style={{color:"#3C5186",fontStyle:"italic"}}>No idea is too small, and no problem is too big,"</p>
             </div>
             <div className="position-relative container">
@@ -12,7 +22,7 @@ export default function Project(){
                     <img src={require("../assets/Home.png")} className='w-100'/>
                 </div>
                 <div className="position-absolute start-0 top-0 mt-4 row" style={{backgroundColor:"transparent"}}>
-                    <div className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
+                    <div data-aos="zoom-y-out" data-aos-delay="100" className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
                         <div className="image-container" style={{backgroundColor:"transparent"}}>
                         <img src={require("../assets/P1.jpeg")} alt="Image 3" className="img-fluid w-75"/>
                         <div className="overlay">
@@ -20,7 +30,7 @@ export default function Project(){
                         </div>
                         </div>
                     </div>
-                    <div className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
+                    <div data-aos="zoom-y-out" data-aos-delay="100" className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
                         <div className="image-container" style={{backgroundColor:"transparent"}}>
                         <img src={require("../assets/P2.jpeg")} alt="Image 3" className="img-fluid w-75"/>
                         <div className="overlay">
@@ -28,7 +38,7 @@ export default function Project(){
                         </div>
                         </div>
                     </div>
-                    <div className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
+                    <div data-aos="zoom-y-out" data-aos-delay="100" className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
                         <div className="image-container" style={{backgroundColor:"transparent"}}>
                         <img src={require("../assets/P3.jpeg")} alt="Image 3" className="img-fluid w-75"/>
                         <div className="overlay">
@@ -36,7 +46,7 @@ export default function Project(){
                         </div>
                         </div>
                     </div>
-                    <div className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
+                    <div data-aos="zoom-y-out" data-aos-delay="100" className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
                         <div className="image-container" style={{backgroundColor:"transparent"}}>
                         <img src={require("../assets/P4.jpeg")} alt="Image 3" className="img-fluid w-75"/>
                         <div className="overlay">
