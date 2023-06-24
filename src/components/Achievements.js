@@ -14,13 +14,13 @@ export default function Achievements(){
   }, []);
     return(
         <>
-          <div class="container shadow-lg mt-5 rounded" style={{backgroundColor: "#3C5186"}}>
-            <div data-aos="zoom-y-out" data-aos-delay="100" class="w-100 pt-3 mb-5" style={{backgroundColor: "#3C5186"}}>
+          <div className="container shadow-lg mt-5 rounded color1">
+            <div data-aos="zoom-y-out" data-aos-delay="100" className="w-100 pt-3 mb-5 color1">
               <PicCarousel/>
             </div>
-            <div style={{backgroundColor: "transparent"}} class="st1 mt-5 mb-5 d-flex flex-row gap-5 flex-wrap justify-content-center align-items-center">
-              <div data-aos="zoom-y-out" data-aos-delay="100" class="position-relative st shadow p-3 mb-5 rounded w-100 w-md-50 d-flex flex-column gap-3 justify-content-center align-items-center">
-                <img src={require("../assets/target1.png")} width="100" class="d-none d-md-block ms-2 position-absolute start-0 top-0 ms-2" alt="target1"/>
+            <div style={{backgroundColor: "transparent"}} className="st1 mt-5 mb-5 d-flex flex-row gap-5 flex-wrap justify-content-center align-items-center">
+              <div data-aos="zoom-y-out" data-aos-delay="100" className="position-relative st shadow p-3 mb-5 rounded w-100 w-md-50 d-flex flex-column gap-3 justify-content-center align-items-center">
+                <img src={require("../assets/target1.png")} width="100" className="d-none d-md-block ms-2 position-absolute start-0 top-0 ms-2" alt="target1"/>
                 <h4 className='fw-bold' style={{color: "#3C5186"}}>Smart India Hackathon - Winner</h4>
                 <span>August 2022</span>
                 <p>Developed a web portal to implement the idea of a transparent buying and selling platform that aims at the empowerment of Self Help Groups of all areas by introducing a web-based and app-based application through which buyers and sellers can directly trade with transparency and no middleman in between. This system is proposed to help Self Help groups earn capital very easily and showcase their unique products worldwide through this web portal.</p>
