@@ -14,7 +14,7 @@ export default function Achievements(){
   }, []);
     return(
         <>
-          <div className="container shadow-lg mt-5 rounded color1">
+          <div className="container shadow-lg mt-4 rounded color1">
             <div data-aos="zoom-y-out" data-aos-delay="100" className="w-100 pt-3 mb-5 color1">
               <PicCarousel/>
             </div>

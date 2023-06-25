@@ -14,15 +14,14 @@ export default function Project(){
       }, []);
     return(
         <>
-            <div data-aos="zoom-y-out" data-aos-delay="100" className="mt-5 mb-5">
-                <p className="fw-semibold" style={{color:"#3C5186",fontStyle:"italic"}}>No idea is too small, and no problem is too big,"</p>
+            <div className='d-flex flex-row justify-content-center align-items-center'>
+                <div data-aos="zoom-y-out" data-aos-delay="500" className="color1 mt-5 mb-5 shadow-lg rounded w-75 text-center p-5">
+                    <h4 className="color1 fw-semibold" style={{color:"#DAEAF1",fontStyle:"italic"}}>"No idea is too small, and no problem is too big"</h4>
+                </div>
             </div>
             <div className="position-relative container">
-                <div className='d-none d-md-block'>
-                    <img src={require("../assets/Home.png")} className='w-100'/>
-                </div>
                 <div className="position-absolute start-0 top-0 mt-4 row" style={{backgroundColor:"transparent"}}>
-                    <div data-aos="zoom-y-out" data-aos-delay="100" className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
+                    <div data-aos="zoom-y-out" data-aos-delay="600" className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
                         <div className="image-container" style={{backgroundColor:"transparent"}}>
                         <img src={require("../assets/P1.jpeg")} alt="Image 3" className="img-fluid w-75"/>
                         <div className="overlay">
@@ -30,7 +29,7 @@ export default function Project(){
                         </div>
                         </div>
                     </div>
-                    <div data-aos="zoom-y-out" data-aos-delay="100" className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
+                    <div data-aos="zoom-y-out" data-aos-delay="600" className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
                         <div className="image-container" style={{backgroundColor:"transparent"}}>
                         <img src={require("../assets/P2.jpeg")} alt="Image 3" className="img-fluid w-75"/>
                         <div className="overlay">
@@ -38,7 +37,7 @@ export default function Project(){
                         </div>
                         </div>
                     </div>
-                    <div data-aos="zoom-y-out" data-aos-delay="100" className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
+                    <div data-aos="zoom-y-out" data-aos-delay="600" className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
                         <div className="image-container" style={{backgroundColor:"transparent"}}>
                         <img src={require("../assets/P3.jpeg")} alt="Image 3" className="img-fluid w-75"/>
                         <div className="overlay">
@@ -46,7 +45,7 @@ export default function Project(){
                         </div>
                         </div>
                     </div>
-                    <div data-aos="zoom-y-out" data-aos-delay="100" className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
+                    <div data-aos="zoom-y-out" data-aos-delay="600" className="col-md-6 mb-5" style={{backgroundColor:"transparent"}}>
                         <div className="image-container" style={{backgroundColor:"transparent"}}>
                         <img src={require("../assets/P4.jpeg")} alt="Image 3" className="img-fluid w-75"/>
                         <div className="overlay">

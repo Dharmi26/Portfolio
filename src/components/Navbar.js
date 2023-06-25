@@ -6,8 +6,8 @@ import '../styles/navbar.css'
 
 function Navbars() {
   return (
-    <Navbar expand="lg" className="sticky-top color shadow p-3">
-      <img src={require("../assets/Logo.png")} width="100"/>
+     <Navbar expand="lg" className="sticky-top color shadow p-3">
+      <img src={require("../assets/DK.png")} width="100"/>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className='ms-2' />
       <Container>
         <Navbar.Collapse id="basic-navbar-nav">
