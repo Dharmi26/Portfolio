@@ -43,10 +43,8 @@ export default function About(){
                 </div>
             </div>
 
-
-
-            <div className="hc p-5 shadow d-flex flex-row justify-content-center align-items-center w-100 text-wrap" style={{backgroundColor: "#DAEAF1", color:"#4c4177"}}>
-                <p className="fs-5 p-5 shadow w-75 rounded" data-aos="zoom-y-out" data-aos-delay="100" style={{fontStyle:"italic", opacity:"0.8"}}>
+            <div className="hc pt-5 p-md-5 shadow d-flex flex-row justify-content-center align-items-center w-100 text-wrap" style={{backgroundColor: "#DAEAF1", color:"#4c4177"}}>
+                <p className="queries fs-5 p-2 p-md-5 shadow w-75 rounded" data-aos="zoom-y-out" data-aos-delay="100" style={{fontStyle:"italic", opacity:"0.8"}}>
                     "I am a student, currently pursuing Bachelor of Technology in Computer Science Branch from SKIT Jaipur.
                     I'm a web developer passionate about building innovative and user-friendly websites and applications.
                     I am eager to collaborate with like-minded professionals and take on new challenges in web development
